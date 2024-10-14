@@ -23,7 +23,7 @@ const Person = mongoose.model("Person", personSchema);
 const person = new Person(
   {
     name: process.argv[3],
-    number: process.argv[4]
+    phone: process.argv[4]
   }
 );
 
